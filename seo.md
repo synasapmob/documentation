@@ -7,9 +7,7 @@
 
   
 
-imagine your website is a **fashion store** and how do perform content of website quantity? most websites usually use to words related the main website
-
-fashion stores around have shoes/shirts/trousers... and this is the main key of the website, so that means you need many phrases main in your website and don't exceed the limit.
+imagine your website is a **fashion store** and how do perform content of website quantity? most websites usually use to words related the main website **fashion stores** around have shoes/shirts/trousers... and this is the main key of the website, so that means you need many phrases main in your website and don't exceed the limit.
 
 ![image](https://github.com/synasapmob/documentation/assets/42969529/0f651701-aac4-4bde-838c-5ff826298006)
 
@@ -19,9 +17,7 @@ fashion stores around have shoes/shirts/trousers... and this is the main key of 
 
   
 
-sometimes users just only typical **recipes with tofu** so this is the problem of the business how 
-can find they the website? if you wanna website high-ranking in the top index in Google,
-
+sometimes users just only typical **recipes with tofu** so this is the problem of the business how can find they the website? if you wanna website high-ranking in the top index in Google,
 so first thing always ensure keywords also **recipes** or **tofu** and more **describe** this can drive traffic users to look to your website
 
   
@@ -166,9 +162,7 @@ the best way to SEO is to use **TAG** it looks like a third-party, that track us
 ## ANCHOR
 
  
-you can use `<a  href="link" />` element that Google can crawl the link, but which just only works with websites that have **prefetch HTML**
-
-now go to test in this way press the right mouse and **view page source**, wow everything HTML/CSS shown fully
+you can use `<a  href="link" />` element that Google can crawl the link, but which just only works with websites that have **prefetch HTML** now go to test in this way press the right mouse and **view page source**, wow everything HTML/CSS shown fully
 
 
 ![image](https://github.com/synasapmob/documentation/assets/42969529/07ffa0a8-4b79-4f80-8265-957da0e3d00e)
