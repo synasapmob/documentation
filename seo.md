@@ -2,8 +2,8 @@
 
 #### 1. Content low quantity
 
-imagine your website is a **fashion store** and how do perform content of website quantity?
-most websites usually use to words related the main website,<br />
+imagine your website is a **fashion store** and how do perform content of website quantity? most websites usually use to words related the main website,
+
 fashion stores around have shoes/shirts/trousers... and this is the main key of the website,
 so that means you need many phrases main in your website and don't exceed the limit.
 
@@ -11,8 +11,8 @@ so that means you need many phrases main in your website and don't exceed the li
 
 #### 2. Content high traffic
 
-sometimes users just only typical **recipes with tofu** so this is the problem of the business how
-can find they the website? if you wanna website high-ranking in the top index in Google,<br />
+sometimes users just only typical **recipes with tofu** so this is the problem of the business how <br />
+can find they the website? if you wanna website high-ranking in the top index in Google,
 so first thing always ensure keywords also **recipes** or **tofu** and more **describe** this can drive traffic users to look to your website
 
 ![image](https://github.com/synasapmob/documentation/assets/42969529/8b723930-c067-4040-bfb3-73a58fc7374d)
@@ -46,8 +46,9 @@ so now you can **health check** your site by tools support **diagnosis** [learn 
 
 ## DENSITY
 
-how frequently a keyword is used within a piece of content, but isn't a big problem for SEO, <br />
-as it’s no longer thought to be a [ranking factor](https://ahrefs.com/blog/google-ranking-factors/).
+how frequently a keyword is used within a piece of content, but isn't a big problem for SEO,
+as it’s no longer thought to be a [ranking factor](https://ahrefs.com/blog/google-ranking-factors/),
+
 This is because modern search engine algorithms are smart enough to understand [learn more](https://blog.hubspot.com/marketing/keyword-density)
 
 ![image](https://github.com/synasapmob/documentation/assets/42969529/86885b57-cadb-4f6c-93e2-aa9f82f6c8e6)
