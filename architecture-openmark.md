@@ -26,7 +26,7 @@ You can visualize this separation within a container. When observing ROOT, you w
 it houses reusable components and accommodates other elements.
 
 <div>
-    <img src="https://res.cloudinary.com/synasapmob/image/upload/v1719397396/55daa7f6f7e0a28b3b1b15ff4d7cea5c.png" />Ï
+    <img src="https://res.cloudinary.com/synasapmob/image/upload/v1719400238/abeeae836b3f42d25fa28f2c6802a321.png" />
 </div>
 
 ## How to installation?
