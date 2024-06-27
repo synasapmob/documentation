@@ -22,10 +22,12 @@ Scalability is crucial for projects. We implemented a **system container** to en
 
 1. **Initialization:**
    You can easily clone other chains based on the initial framework. This allows you to quickly set up new projects by following the established structure.
-2. **Maintainability:**
+   
+3. **Maintainability:**
    The **system container** separates projects in a way that prevents overlap, such as themes, layouts, etc.
    This separation ensures that changes in one project do not impact others.
-3. **Clean code:**
+   
+5. **Clean code:**
    We adhere to the **SOLID principles**, ensuring that our code is readable, maintainable, and easy to modify. This fosters better collaboration and makes it easier for team members to work together.
 
 <div>
