@@ -1,4 +1,4 @@
-[<div>
+<div>
 
   <div align="center">
     <a href="openmark.io" target="_blank" rel="noreferrer">
@@ -53,4 +53,3 @@ yarn install
 # Run the server
 yarn  dev
 ```
-](https://github.com/synasapmob/documentation/blob/main/architecture-openmark.md)
