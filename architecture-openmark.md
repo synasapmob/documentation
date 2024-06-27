@@ -18,15 +18,15 @@
 
 ## Architecture
 
-scalability is necessary for projects. Therefore, we implemented a **system container**,
-mission of the **system container** will be pull folders and render that'll meaning as the same multiple projects but it's just only need one repository,
+Scalability is crucial for projects. We implemented a **system container** to enhance scalability. The **system container**'s mission is to pull folders and render them, effectively managing multiple projects within a single repository.
 
-1. **initialization:**
-   you can clone others chain by the base, because we have the frame and you just follow
-2. **maintainable:**
-   the **system container** separation projects it's not resemable E.x (theme/layout/etc..) and it difference so won't impact
+1. **Initialization:**
+   You can easily clone other chains based on the initial framework. This allows you to quickly set up new projects by following the established structure.
+2. **Maintainability:**
+   The **system container** separates projects in a way that prevents overlap, such as themes, layouts, etc.
+   This separation ensures that changes in one project do not impact others.
 3. **Clean code:**
-   our following **principle SOLID** that we can together work because it's can readable and modify easier
+   We adhere to the **SOLID principles**, ensuring that our code is readable, maintainable, and easy to modify. This fosters better collaboration and makes it easier for team members to work together.
 
 <div>
     <img src="https://res.cloudinary.com/synasapmob/image/upload/v1719400238/abeeae836b3f42d25fa28f2c6802a321.png" />
