@@ -1,4 +1,4 @@
-<div>
+[<div>
 
   <div align="center">
     <a href="openmark.io" target="_blank" rel="noreferrer">
@@ -18,7 +18,8 @@
 
 ## Architecture
 
-Scalability is crucial for projects. We implemented a **system container** to enhance scalability. The **system container**'s mission is to pull folders and render them, effectively managing multiple projects within a single repository.
+Scalability is crucial for projects. We implemented a **system container** to enhance scalability. The **system container** mission is to pull folders and render them, 
+effectively managing multiple projects within a single repository.
 
 1. **Initialization:**
    You can easily clone other chains based on the initial framework. This allows you to quickly set up new projects by following the established structure.
@@ -52,3 +53,4 @@ yarn install
 # Run the server
 yarn  dev
 ```
+](https://github.com/synasapmob/documentation/blob/main/architecture-openmark.md)
