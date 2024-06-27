@@ -18,12 +18,15 @@
 
 ## Architecture
 
-Ensuring scalability and flexibility is imperative for projects. Therefore, we implemented a system for<br />
-the separation of components.
-<br />
+scalability is necessary for projects. Therefore, we implemented a **system container**,
+mission of the **system container** will be pull folders and render that'll meaning as the same multiple projects but it's just only need one repository,
 
-You can visualize this separation within a container. When observing ROOT, you will see that<br />
-it houses reusable components and accommodates other elements.
+1. **initialization:**
+   you can clone others chain by the base, because we have the frame and you just follow
+2. **maintainable:**
+   the **system container** separation projects it's not resemable E.x (theme/layout/etc..) and it difference so won't impact
+3. **Clean code:**
+   our following **principle SOLID** that we can together work because it's can readable and modify easier
 
 <div>
     <img src="https://res.cloudinary.com/synasapmob/image/upload/v1719400238/abeeae836b3f42d25fa28f2c6802a321.png" />
