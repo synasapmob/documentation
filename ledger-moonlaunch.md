@@ -17,12 +17,13 @@
 ### 1. Cannot sign the transaction?
 
    - You need to enable Blind Signing before signing the transaction.
-   - Follow this guide: (Enable Blind Signature)[[https://support.ledger.com/article/4499092909085-zd]].
+      Follow this guide [Enable Blind Signature](https://support.ledger.com/article/4499092909085-zd])
+
+   - Always keep your Ledger screen on and ensure the application displays 'Application is ready.' Please do not lock it.
 
 ### 2. Where can I find the "Root Ledger Wallet"?
 
    - When importing an account, you can select the Root Ledger Wallet instead of sub-accounts.
-
 
 ## PROBLEM/IMAGES
 
@@ -32,3 +33,6 @@
 
 ![Screen Shot 2025-02-12 at 09 50 29](https://github.com/user-attachments/assets/ae1d85c6-0443-49be-8fa6-68189de0e56c)
 
+![Screen Shot 2025-02-12 at 10 25 14](https://github.com/user-attachments/assets/2742cf59-78e9-4081-ad53-2c50b2b22fc3)
+
+![image](https://github.com/user-attachments/assets/a21c24a6-59d8-403c-9cb5-aab098ab6571)
