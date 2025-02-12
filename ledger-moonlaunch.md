@@ -1,4 +1,4 @@
-![Screen Shot 2025-02-12 at 09 57 20](https://github.com/user-attachments/assets/c24224c3-0787-4da5-8d61-6f71801ac812)## Supported Versions:
+## Supported Versions:
 
 - Only Ledger Nano S/X/S Plus with the USB protocol are supported.
 - Root Ledger Wallets are accepted—sub-accounts are not.
@@ -25,6 +25,7 @@
 
 
 ## PROBLEM/IMAGES
+
 ![Screen Shot 2025-02-12 at 10 13 50](https://github.com/user-attachments/assets/b9b0d3c2-e541-47fd-bf94-53171167dc70)
 
 ![Screen Shot 2025-02-12 at 09 57 20](https://github.com/user-attachments/assets/cc00f17d-9db6-4b5b-b77b-ae573da6bfca)
