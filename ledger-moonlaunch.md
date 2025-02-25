@@ -1,50 +1,3 @@
-## Supported Versions:
-
-- Only Ledger Nano S/X/S Plus with the USB protocol are supported.
-- Root Ledger Wallets are accepted—sub-accounts are not.
-- Tested successfully on version 1.4.3 (other versions are untested).
-
-## Steps to Connect:
-
-1. Plug your Ledger device into your computer via USB.
-2. Open the "Solana" app on your Ledger. It should display "Application is ready."
-3. Click "Connect Wallet" on MoonLaunch and select "Ledger Wallet."
-4. Choose the wallet you’re interested in and sign the message on your Ledger.
-5. Enjoy! 🚀 But remember the Root Ledger Wallet requirement (see point 2 of "Supported Versions").
-
-## FAQ
-
-### 1. Cannot sign the transaction?
-
-   - You need to enable Blind Signing before signing the transaction.
-      Follow this guide [Enable Blind Signature](https://support.ledger.com/article/4499092909085-zd])
-
-   - Always keep your Ledger screen on and ensure the application displays 'Application is ready.' Please do not lock it.
-
-### 2. Where can I find the "Root Ledger Wallet"?
-
-   - When importing an account, you can select the Root Ledger Wallet instead of sub-accounts.
-
-## PROBLEM/IMAGES
-
-![Screen Shot 2025-02-12 at 10 13 50](https://github.com/user-attachments/assets/b9b0d3c2-e541-47fd-bf94-53171167dc70)
-
-![Screen Shot 2025-02-12 at 09 57 20](https://github.com/user-attachments/assets/cc00f17d-9db6-4b5b-b77b-ae573da6bfca)
-
-![Screen Shot 2025-02-12 at 09 50 29](https://github.com/user-attachments/assets/ae1d85c6-0443-49be-8fa6-68189de0e56c)
-
-![Screen Shot 2025-02-12 at 10 25 14](https://github.com/user-attachments/assets/2742cf59-78e9-4081-ad53-2c50b2b22fc3)
-
-![image](https://github.com/user-attachments/assets/a21c24a6-59d8-403c-9cb5-aab098ab6571)
-
-
-
-
-
-
-
-
-
 ## Tutorial
 
 You can choose the type (HID/USB) for the Ledger device to use with the application. Also, note that the Ledger currently supports SOL, BTC, Polkadot, and more. [SEE MORE](https://github.com/ledgerhq#nano-applications)
@@ -78,10 +31,14 @@ Install the following packages:
   // Connect to your Ledger device (ensure it is plugged into your computer)
   const transport = await TransportWebUSB.create();
 
-  // Get BIP32 Derivation Path and Public Key
-  const from_derivation_path = solanaDerivationPath();
-  const from_pubkey_bytes = await solanaLedgerGetPubkey(transport, from_derivation_path);
-  const from_pubkey_string = bs58.encode(from_pubkey_bytes); // Ensure bs58 is installed; get it from https://www.npmjs.com/package/bs58
+  // Get BIP32 Derivation Path and Public Key, reference from https://github.com/ByteZhang1024/wallet-adapter/blob/feat/add-sign-message-for-ledger/packages/wallets/ledger/src/util.ts#L8
+  const from_derivation_path = getDerivationPath();
+
+  // this using method 'send' of transport to get pubkey, reference from https://github.com/ByteZhang1024/wallet-adapter/blob/feat/add-sign-message-for-ledger/packages/wallets/ledger/src/util.ts#L143
+  const from_pubkey_bytes = await getPublicKey(transport, from_derivation_path);
+
+  // Ensure bs58 is installed; get it from https://www.npmjs.com/package/bs58
+  const from_pubkey_string = bs58.encode(from_pubkey_bytes);
 
   console.log('Your public key bytes: ' + from_pubkey_bytes);
   console.log('Your public key string: ' + from_pubkey_string);
